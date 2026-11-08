@@ -8,13 +8,12 @@ Which months have the highest share of delayed flights at UK airports.
 
 - Source: UK Civil Aviation Authority, airport punctuality statistics
 - Period: January 2025 to December 2025
-- Size: [number of rows] rows, [number of columns] columns
 - Link: https://www.caa.co.uk/data-and-analysis/uk-aviation-market/flight-punctuality/uk-flight-punctuality-statistics/2025/
 
 ## What I did
 
 1. Loaded the CSV files with pandas and combined them into one table.
-2. Cleaned the data: removed [number] duplicate rows, dropped [number] rows with missing delay values, and converted the date column to a proper date type.
+2. Cleaned the data: removed duplicate rows and dropped rows with missing delay values
 3. Defined "delayed" as a flight more than 15 minutes late.
 4. Grouped the data by month and by airport size, and calculated the share of delayed flights in each group.
 5. Plotted the results as a bar chart.
@@ -29,7 +28,7 @@ Which months have the highest share of delayed flights at UK airports.
 ## Limitations
 
 - The data shows when delays happened, not why. I did not have weather or air traffic data.
-- [Any data you excluded, and how that could change the result.]
+- Figure excluded cancelled flights
 - This covers one year, so I can't say whether the pattern repeats.
 
 ## How to run it
@@ -40,8 +39,8 @@ Which months have the highest share of delayed flights at UK airports.
 
 ## Next steps
 
-- Add [weather data] and test whether it explains the winter peak.
-- Compare [two airlines] directly.
+- Add weather data and test whether it explains the winter peak.
+- Compare flight data between airline companies directly.
 
 ## Tools
 
