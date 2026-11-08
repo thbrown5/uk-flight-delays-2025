@@ -21,7 +21,10 @@ Which months have the highest share of delayed flights at UK airports?
 ## Findings
 
 - The highest percent of delays was in July at 37.6%. The lowest was in March at 16.4%.
-- January was worse than expected for a winter month at 27.0% of flights were delayed, compared with 17.6% in February. The data can’t show why, so a next step is to check whether a specific weather event like a major storm explains it.
+- The June to September period had both the most flights and the highest share of delayed flights, between 30.2% and 37.6%.
+- January was worse than expected for a winter month at 27.0% of flights were delayed, compared with 17.6% in February. The data can’t show why.
+- A quick search shows in January 2025 Storm Éowyn brought record breaking winds and disrupted the entire country a possible cause for this spike.
+-Storm Éowyn hit on 24 January with red wind warnings in Scotland and Northern Ireland and led to hundreds of cancelled UK flights ([source](https://www.metoffice.gov.uk/blog/2025/a-look-back-on-storm-eowyn)). However, my calculations exclude cancelled flights so this might not tell the whole story and more analysis is needed.
 
 ![Delay share by month](charts/delay_by_month.png)
 
