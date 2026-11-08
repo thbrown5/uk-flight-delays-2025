@@ -28,7 +28,7 @@ Which months have the highest share of delayed flights at UK airports?
 ## Limitations
 
 - The data shows when delays happened, not why. I did not have weather or air traffic data.
-- Excluded cancelled flights from the data.
+- Data is aggregated by airline and route. I couldn't look at individual flights.
 - This covers one year, so I can't say whether the pattern repeats.
 
 ## How to run it
@@ -39,7 +39,7 @@ Which months have the highest share of delayed flights at UK airports?
 
 ## Next steps
 
-- Add weather data and test whether it explains the winter peak.
+- Add weather data and test whether it explains the January spike.
 - Compare different airlines delay percentage against the average.
 
 ## Tools
